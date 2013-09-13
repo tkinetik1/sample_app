@@ -23,6 +23,7 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
+gem 'turbolinks', '1.3.0'
 gem 'jquery-rails', '2.0.2'
 
 group :test do

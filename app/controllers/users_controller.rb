@@ -4,6 +4,10 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
+  def edit
+    @user = User.find(params[:id])
+  end
+
   def new
   	@user = User.new
   end
@@ -11,6 +15,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(params[:user])    # Not the final implementation!
     if @user.save
+      sign_in @user
       flash[:success] = "Welcome to the Sample App!"
       redirect_to @user
     else
