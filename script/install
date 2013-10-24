@@ -1,0 +1,313 @@
+Script started on Thu 24 Oct 2013 08:32:48 AM PDT
+]0;user@ubuntu: ~/rails_projects/sample_app/scriptuser@ubuntu:~/rails_projects/sample_app/script$ rake rails_ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C: upgrade:check
+(in /home/user/rails_projects/sample_app)
+rake aborted!
+Don't know how to build task 'rails:upgrade:check'
+
+(See full trace by running task with --trace)
+]0;user@ubuntu: ~/rails_projects/sample_app/scriptuser@ubuntu:~/rails_projects/sample_app/script$ push heroku [A
+The program 'push' is currently not installed.  You can install it by typing:
+sudo apt-get install heimdal-clients
+]0;user@ubuntu: ~/rails_projects/sample_app/scriptuser@ubuntu:~/rails_projects/sample_app/script$ cd ..
+]0;user@ubuntu: ~/rails_projects/sample_appuser@ubuntu:~/rails_projects/sample_app$ push heroku
+The program 'push' is currently not installed.  You can install it by typing:
+sudo apt-get install heimdal-clients
+]0;user@ubuntu: ~/rails_projects/sample_appuser@ubuntu:~/rails_projects/sample_app$ git push heroku
+Counting objects: 135, done.
+Delta compression using up to 2 threads.
+Compressing objects:   1% (1/98)   Compressing objects:   2% (2/98)   Compressing objects:   3% (3/98)   Compressing objects:   4% (4/98)   Compressing objects:   5% (5/98)   Compressing objects:   6% (6/98)   Compressing objects:   7% (7/98)   Compressing objects:   8% (8/98)   Compressing objects:   9% (9/98)   Compressing objects:  10% (10/98)   Compressing objects:  11% (11/98)   Compressing objects:  12% (12/98)   Compressing objects:  13% (13/98)   Compressing objects:  14% (14/98)   Compressing objects:  15% (15/98)   Compressing objects:  16% (16/98)   Compressing objects:  17% (17/98)   Compressing objects:  18% (18/98)   Compressing objects:  19% (19/98)   Compressing objects:  20% (20/98)   Compressing objects:  21% (21/98)   Compressing objects:  22% (22/98)   Compressing objects:  23% (23/98)   Compressing objects:  24% (24/98)   Compressing objects:  25% (25/98)   Compressing objects:  26% (26/98)   Compressing objects:  27% (27/98)   Compressing objects:  28% (28/98)   Compressing objects:  29% (29/98)   Compressing objects:  30% (30/98)   Compressing objects:  31% (31/98)   Compressing objects:  32% (32/98)   Compressing objects:  33% (33/98)   Compressing objects:  34% (34/98)   Compressing objects:  35% (35/98)   Compressing objects:  36% (36/98)   Compressing objects:  37% (37/98)   Compressing objects:  38% (38/98)   Compressing objects:  39% (39/98)   Compressing objects:  40% (40/98)   Compressing objects:  41% (41/98)   Compressing objects:  42% (42/98)   Compressing objects:  43% (43/98)   Compressing objects:  44% (44/98)   Compressing objects:  45% (45/98)   Compressing objects:  46% (46/98)   Compressing objects:  47% (47/98)   Compressing objects:  48% (48/98)   Compressing objects:  50% (49/98)   Compressing objects:  51% (50/98)   Compressing objects:  52% (51/98)   Compressing objects:  53% (52/98)   Compressing objects:  54% (53/98)   Compressing objects:  55% (54/98)   Compressing objects:  56% (55/98)   Compressing objects:  57% (56/98)   Compressing objects:  58% (57/98)   Compressing objects:  59% (58/98)   Compressing objects:  60% (59/98)   Compressing objects:  61% (60/98)   Compressing objects:  62% (61/98)   Compressing objects:  63% (62/98)   Compressing objects:  64% (63/98)   Compressing objects:  65% (64/98)   Compressing objects:  66% (65/98)   Compressing objects:  67% (66/98)   Compressing objects:  68% (67/98)   Compressing objects:  69% (68/98)   Compressing objects:  70% (69/98)   Compressing objects:  71% (70/98)   Compressing objects:  72% (71/98)   Compressing objects:  73% (72/98)   Compressing objects:  74% (73/98)   Compressing objects:  75% (74/98)   Compressing objects:  76% (75/98)   Compressing objects:  77% (76/98)   Compressing objects:  78% (77/98)   Compressing objects:  79% (78/98)   Compressing objects:  80% (79/98)   Compressing objects:  81% (80/98)   Compressing objects:  82% (81/98)   Compressing objects:  83% (82/98)   Compressing objects:  84% (83/98)   Compressing objects:  85% (84/98)   Compressing objects:  86% (85/98)   Compressing objects:  87% (86/98)   Compressing objects:  88% (87/98)   Compressing objects:  89% (88/98)   Compressing objects:  90% (89/98)   Compressing objects:  91% (90/98)   Compressing objects:  92% (91/98)   Compressing objects:  93% (92/98)   Compressing objects:  94% (93/98)   Compressing objects:  95% (94/98)   Compressing objects:  96% (95/98)   Compressing objects:  97% (96/98)   Compressing objects:  98% (97/98)   Compressing objects: 100% (98/98)   Compressing objects: 100% (98/98), done.
+Writing objects:   0% (1/101)   Writing objects:   1% (2/101)   Writing objects:   2% (3/101)   Writing objects:   3% (4/101)   Writing objects:   4% (5/101)   Writing objects:   5% (6/101)   Writing objects:   8% (9/101)   Writing objects:   9% (10/101)   Writing objects:  11% (12/101)   Writing objects:  12% (13/101)   Writing objects:  13% (14/101)   Writing objects:  14% (15/101)   Writing objects:  15% (16/101)   Writing objects:  16% (17/101)   Writing objects:  17% (18/101)   Writing objects:  18% (19/101)   Writing objects:  19% (20/101)   Writing objects:  20% (21/101)   Writing objects:  21% (22/101)   Writing objects:  22% (23/101), 264.00 KiB | 495 KiB/s   Writing objects:  22% (23/101), 584.00 KiB | 549 KiB/s   Writing objects:  23% (24/101), 904.00 KiB | 574 KiB/s   Writing objects:  24% (25/101), 904.00 KiB | 574 KiB/s   Writing objects:  25% (26/101), 904.00 KiB | 574 KiB/s   Writing objects:  26% (27/101), 904.00 KiB | 574 KiB/s   Writing objects:  27% (28/101), 904.00 KiB | 574 KiB/s   Writing objects:  27% (28/101), 1.19 MiB | 582 KiB/s   Writing objects:  27% (28/101), 1.81 MiB | 599 KiB/s   Writing objects:  27% (28/101), 2.50 MiB | 624 KiB/s   Writing objects:  27% (28/101), 3.06 MiB | 627 KiB/s   Writing objects:  27% (28/101), 3.69 MiB | 615 KiB/s   Writing objects:  28% (29/101), 3.69 MiB | 615 KiB/s   Writing objects:  29% (30/101), 3.69 MiB | 615 KiB/s   Writing objects:  30% (31/101), 3.69 MiB | 615 KiB/s   Writing objects:  31% (32/101), 3.69 MiB | 615 KiB/s   Writing objects:  32% (33/101), 3.69 MiB | 615 KiB/s   Writing objects:  33% (34/101), 3.69 MiB | 615 KiB/s   Writing objects:  34% (35/101), 3.69 MiB | 615 KiB/s   Writing objects:  35% (36/101), 3.69 MiB | 615 KiB/s   Writing objects:  36% (37/101), 3.69 MiB | 615 KiB/s   Writing objects:  37% (38/101), 3.69 MiB | 615 KiB/s   Writing objects:  38% (39/101), 3.69 MiB | 615 KiB/s   Writing objects:  40% (41/101), 3.69 MiB | 615 KiB/s   Writing objects:  41% (42/101), 3.69 MiB | 615 KiB/s   Writing objects:  42% (43/101), 3.69 MiB | 615 KiB/s   Writing objects:  43% (44/101), 3.69 MiB | 615 KiB/s   Writing objects:  44% (45/101), 3.69 MiB | 615 KiB/s   Writing objects:  45% (46/101), 3.69 MiB | 615 KiB/s   Writing objects:  46% (47/101), 3.69 MiB | 615 KiB/s   Writing objects:  47% (48/101), 3.69 MiB | 615 KiB/s   Writing objects:  48% (49/101), 3.69 MiB | 615 KiB/s   Writing objects:  49% (50/101), 3.69 MiB | 615 KiB/s   Writing objects:  50% (51/101), 3.69 MiB | 615 KiB/s   Writing objects:  51% (52/101), 3.69 MiB | 615 KiB/s   Writing objects:  52% (53/101), 3.69 MiB | 615 KiB/s   Writing objects:  53% (54/101), 3.69 MiB | 615 KiB/s   Writing objects:  54% (55/101), 3.69 MiB | 615 KiB/s   Writing objects:  55% (56/101), 3.69 MiB | 615 KiB/s   Writing objects:  56% (57/101), 3.69 MiB | 615 KiB/s   Writing objects:  57% (58/101), 3.69 MiB | 615 KiB/s   Writing objects:  58% (59/101), 3.69 MiB | 615 KiB/s   Writing objects:  59% (60/101), 3.69 MiB | 615 KiB/s   Writing objects:  60% (61/101), 3.69 MiB | 615 KiB/s   Writing objects:  61% (62/101), 3.69 MiB | 615 KiB/s   Writing objects:  62% (63/101), 3.69 MiB | 615 KiB/s   Writing objects:  63% (64/101), 3.69 MiB | 615 KiB/s   Writing objects:  64% (65/101), 3.69 MiB | 615 KiB/s   Writing objects:  65% (66/101), 3.69 MiB | 615 KiB/s   Writing objects:  66% (67/101), 3.69 MiB | 615 KiB/s   Writing objects:  67% (68/101), 4.02 MiB | 622 KiB/s   Writing objects:  68% (69/101), 4.02 MiB | 622 KiB/s   Writing objects:  69% (70/101), 4.02 MiB | 622 KiB/s   Writing objects:  70% (71/101), 4.02 MiB | 622 KiB/s   Writing objects:  71% (72/101), 4.02 MiB | 622 KiB/s   Writing objects:  72% (73/101), 4.02 MiB | 622 KiB/s   Writing objects:  73% (74/101), 4.02 MiB | 622 KiB/s   Writing objects:  74% (75/101), 4.02 MiB | 622 KiB/s   Writing objects:  75% (76/101), 4.02 MiB | 622 KiB/s   Writing objects:  76% (77/101), 4.02 MiB | 622 KiB/s   Writing objects:  77% (78/101), 4.02 MiB | 622 KiB/s   Writing objects:  78% (79/101), 4.02 MiB | 622 KiB/s   Writing objects:  79% (80/101), 4.02 MiB | 622 KiB/s   Writing objects:  80% (81/101), 4.02 MiB | 622 KiB/s   Writing objects:  81% (82/101), 4.02 MiB | 622 KiB/s   Writing objects:  82% (83/101), 4.02 MiB | 622 KiB/s   Writing objects:  83% (84/101), 4.02 MiB | 622 KiB/s   Writing objects:  84% (85/101), 4.02 MiB | 622 KiB/s   Writing objects:  85% (86/101), 4.02 MiB | 622 KiB/s   Writing objects:  86% (87/101), 4.02 MiB | 622 KiB/s   Writing objects:  87% (88/101), 4.02 MiB | 622 KiB/s   Writing objects:  88% (89/101), 4.02 MiB | 622 KiB/s   Writing objects:  89% (90/101), 4.02 MiB | 622 KiB/s   Writing objects:  90% (91/101), 4.02 MiB | 622 KiB/s   Writing objects:  91% (92/101), 4.02 MiB | 622 KiB/s   Writing objects:  92% (93/101), 4.02 MiB | 622 KiB/s   Writing objects:  93% (94/101), 4.02 MiB | 622 KiB/s   Writing objects:  94% (95/101), 4.02 MiB | 622 KiB/s   Writing objects:  95% (96/101), 4.02 MiB | 622 KiB/s   Writing objects:  96% (97/101), 4.02 MiB | 622 KiB/s   Writing objects:  97% (98/101), 4.02 MiB | 622 KiB/s   Writing objects:  98% (99/101), 4.02 MiB | 622 KiB/s   Writing objects:  99% (100/101), 4.02 MiB | 622 KiB/s   Writing objects: 100% (101/101), 4.02 MiB | 622 KiB/s   Writing objects: 100% (101/101), 4.19 MiB | 608 KiB/s, done.
+Total 101 (delta 45), reused 0 (delta 0)
+
+-----> Ruby app detected
+-----> Compiling Ruby/Rails
+-----> Using Ruby version: ruby-2.0.0
+-----> Installing dependencies using Bundler version 1.3.2
+       Fixing nokogiri install. Clearing bundler cache.
+       See https://github.com/sparklemotion/nokogiri/issues/923.
+       Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin --deployment
+       Fetching gem metadata from https://rubygems.org/..........
+       Fetching gem metadata from https://rubygems.org/..
+       Installing rake (10.1.0)
+       Installing i18n (0.6.5)
+       Installing multi_json (1.8.2)
+       Installing activesupport (3.2.15)
+       Installing builder (3.0.4)
+       Installing activemodel (3.2.15)
+       Installing erubis (2.7.0)
+       Installing journey (1.0.4)
+       Installing rack (1.4.5)
+       Installing rack-cache (1.2)
+       Installing rack-test (0.6.2)
+       Installing hike (1.2.3)
+       Installing tilt (1.4.1)
+       Installing sprockets (2.2.2)
+       Installing actionpack (3.2.15)
+       Installing mime-types (1.25)
+       Installing polyglot (0.3.3)
+       Installing treetop (1.4.15)
+       Installing mail (2.5.4)
+       Installing actionmailer (3.2.15)
+       Installing arel (3.0.3)
+       Installing tzinfo (0.3.38)
+       Installing activerecord (3.2.15)
+       Installing activeresource (3.2.15)
+       Installing bcrypt-ruby (3.0.1)
+       Installing bootstrap-sass (2.1.0.0)
+       Installing will_paginate (3.0.3)
+       Installing bootstrap-will_paginate (0.0.6)
+       Installing coffee-script-source (1.6.3)
+       Installing execjs (2.0.2)
+       Installing coffee-script (2.2.0)
+       Installing rack-ssl (1.3.3)
+       Installing json (1.8.1)
+       Installing rdoc (3.12.2)
+       Installing thor (0.18.1)
+       Installing railties (3.2.15)
+       Installing coffee-rails (3.2.2)
+       Installing database_cleaner (1.2.0)
+       Installing faker (1.1.2)
+       Installing jquery-rails (2.0.2)
+       Installing pg (0.12.2)
+       Using bundler (1.3.2)
+       Installing rails (3.2.15)
+       Installing sass (3.2.12)
+       Installing sass-rails (3.2.6)
+       Installing turbolinks (1.3.0)
+       Installing uglifier (1.2.3)
+       Your bundle is complete! It was installed into ./vendor/bundle
+       Post-install message from rdoc:
+       Depending on your version of ruby, you may need to install ruby rdoc/ri data:
+       <= 1.8.6 : unsupported
+       = 1.8.7 : gem install rdoc-data; rdoc-data --install
+       = 1.9.1 : gem install rdoc-data; rdoc-data --install
+       >= 1.9.2 : nothing to do! Yay!
+       Bundle completed (56.12s)
+       Cleaning up the bundler cache.
+-----> Writing config/database.yml to read from DATABASE_URL
+-----> Preparing app for Rails asset pipeline
+       Running: rake assets:precompile
+       DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/Rakefile:7)
+       DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/1/4/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/Rakefile:7)
+       rake aborted!
+       could not connect to server: Connection refused
+       Is the server running on host "127.0.0.1" and accepting
+       TCP/IP connections on port 5432?
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `initialize'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `new'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/postgresql_adapter.rb:1222:in `connect'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/postgresql_adapter.rb:324:in `initialize'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `new'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/postgresql_adapter.rb:28:in `postgresql_connection'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:315:in `new_connection'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:325:in `checkout_new_connection'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:247:in `block (2 levels) in checkout'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `loop'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:242:in `block in checkout'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:239:in `checkout'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:102:in `block in connection'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:101:in `connection'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_pool.rb:410:in `retrieve_connection'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:171:in `retrieve_connection'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/connection_adapters/abstract/connection_specification.rb:145:in `connection'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/model_schema.rb:310:in `clear_cache!'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activerecord-3.2.15/lib/active_record/railtie.rb:103:in `block (2 levels) in <class:Railtie>'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.15/lib/active_support/callbacks.rb:418:in `_run__676377354805228995__prepare__25211450082221906__callbacks'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.15/lib/active_support/callbacks.rb:405:in `__run_callback'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.15/lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.15/lib/active_support/callbacks.rb:81:in `run_callbacks'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/actionpack-3.2.15/lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/actionpack-3.2.15/lib/action_dispatch/middleware/reloader.rb:48:in `prepare!'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/railties-3.2.15/lib/rails/application/finisher.rb:47:in `block in <module:Finisher>'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/railties-3.2.15/lib/rails/initializable.rb:30:in `instance_exec'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/railties-3.2.15/lib/rails/initializable.rb:30:in `run'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/railties-3.2.15/lib/rails/initializable.rb:55:in `block in run_initializers'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/railties-3.2.15/lib/rails/initializable.rb:54:in `each'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/railties-3.2.15/lib/rails/initializable.rb:54:in `run_initializers'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/railties-3.2.15/lib/rails/application.rb:136:in `initialize!'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/railties-3.2.15/lib/rails/railtie/configurable.rb:30:in `method_missing'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/config/environment.rb:5:in `<top (required)>'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.15/lib/active_support/dependencies.rb:251:in `require'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.15/lib/active_support/dependencies.rb:251:in `block in require'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.15/lib/active_support/dependencies.rb:236:in `load_dependency'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/activesupport-3.2.15/lib/active_support/dependencies.rb:251:in `require'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/railties-3.2.15/lib/rails/application.rb:103:in `require_environment!'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/railties-3.2.15/lib/rails/application.rb:305:in `block (2 levels) in initialize_tasks'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/actionpack-3.2.15/lib/sprockets/assets.rake:93:in `block (2 levels) in <top (required)>'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/actionpack-3.2.15/lib/sprockets/assets.rake:60:in `block (3 levels) in <top (required)>'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/actionpack-3.2.15/lib/sprockets/assets.rake:23:in `invoke_or_reboot_rake_task'
+       /tmp/build_9fbb92b2-40f4-4df0-a1bb-ef6271304600/vendor/bundle/ruby/2.0.0/gems/actionpack-3.2.15/lib/sprockets/assets.rake:29:in `block (2 levels) in <top (required)>'
+       Tasks: TOP => environment
+       (See full trace by running task with --trace)
+ !
+ !     Precompiling assets failed.
+ !
+
+ !     Push rejected, failed to compile Ruby app
+
+To git@heroku.com:lit-oasis-3495.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'git@heroku.com:lit-oasis-3495.git'
+]0;user@ubuntu: ~/rails_projects/sample_appuser@ubuntu:~/rails_projects/sample_app$ YAML [K::Engine[K[K[K[K[KNGINE
+YAML::ENGINE: command not found
+]0;user@ubuntu: ~/rails_projects/sample_appuser@ubuntu:~/rails_projects/sample_app$ git diff
+[?1h=diff --git a/.gitignore b/.gitignore[m
+index eb3489a..0ad723e 100644[m
+--- a/.gitignore[m
++++ b/.gitignore[m
+@@ -13,3 +13,11 @@[m
+ # Ignore all logfiles and tempfiles.[m
+ /log/*.log[m
+ /tmp[m
++[m
++bundler_stubs/[m
++[m
++#ignore other unneeded files.[m
+++database.yml[m
++doc/[m
++*.swp[m
++*~[m
+diff --git a/Gemfile b/Gemfile[m
+index d454c37..d8d8470 100644[m
+--- a/Gemfile[m
++++ b/Gemfile[m
+@@ -1,7 +1,7 @@[m
+ source 'https://rubygems.org'[m
+ # ruby '2.0.0'[m
+:[K[K # Commented out , on version of Ruby 1.9.3[m
+:[K[K-gem 'rails', '3.2.15'[m
+:[K[K+gem 'rails', '3.2.13'[m
+:[K[K gem 'bootstrap-sass', '2.1'[m
+:[K[K gem 'bcrypt-ruby', '3.0.1'[m
+:[K[K gem 'faker', '1.1.2'[m
+:[K[K@@ -9,7 +9,8 @@ gem 'will_paginate', '3.0.3'[m
+:[K[K gem 'bootstrap-will_paginate', '0.0.6'[m
+:[K[K gem 'turbolinks', '1.3.0'[m
+:[K[K gem 'jquery-rails', '2.0.2'[m
+:[K[K-gem 'database_cleaner'[m
+:[K[K+[m
+:[K[K+gem 'rails_12factor'[m
+:[K[K [m
+:[K[K # Bundle edge Rails instead:[m
+:[K[K # gem 'rails', :git => 'git://github.com/rails/rails.git'[m
+:[K[K@@ -32,6 +33,7 @@ group :assets do[m
+:[K[K group :test do[m
+:[K[K        gem 'capybara', '1.1.2'[m
+:[K[K        gem 'factory_girl_rails', '4.2.1'[m
+:[K[K+       gem 'database_cleaner'[m
+:[K[K end[m
+:[K[K [m
+:[K[K group :production do[m
+:[K[Kdiff --git a/Gemfile.lock b/Gemfile.lock[m
+:[K[Kindex 0a2ab92..70be1d1 100644[m
+:[K[K--- a/Gemfile.lock[m
+:[K[K+++ b/Gemfile.lock[m
+:[K[K@@ -1,12 +1,12 @@[m
+:[K[K GEM[m
+:[K[K   remote: https://rubygems.org/[m
+:[K[K   specs:[m
+:[K[K-    actionmailer (3.2.15)[m
+:[K[K-      actionpack (= 3.2.15)[m
+:[K[K-      mail (~> 2.5.4)[m
+:[K[K-    actionpack (3.2.15)[m
+:[K[K-      activemodel (= 3.2.15)[m
+:[K[K-      activesupport (= 3.2.15)[m
+:[K[K+    actionmailer (3.2.13)[m
+:[K[K+      actionpack (= 3.2.13)[m
+:[K[K+      mail (~> 2.5.3)[m
+:[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K+    actionpack (3.2.13)[m
+:[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[24;1H[K[K:[K[K+      activemodel (= 3.2.13)[m
+:[K[K+      activesupport (= 3.2.13)[m
+:[K[K       builder (~> 3.0.0)[m
+:[K[K       erubis (~> 2.7.0)[m
+:[K[K       journey (~> 1.0.4)[m
+:[K[K@@ -14,19 +14,19 @@ GEM[m
+:[K[K       rack-cache (~> 1.2)[m
+:[K[K       rack-test (~> 0.6.1)[m
+:[K[K       sprockets (~> 2.2.1)[m
+:[K[K-    activemodel (3.2.15)[m
+:[K[K-      activesupport (= 3.2.15)[m
+:[K[K+    activemodel (3.2.13)[m
+:[K[K+      activesupport (= 3.2.13)[m
+:[K[K       builder (~> 3.0.0)[m
+:[K[K-    activerecord (3.2.15)[m
+:[K[K-      activemodel (= 3.2.15)[m
+:[K[K-      activesupport (= 3.2.15)[m
+:[K[K+    activerecord (3.2.13)[m
+:[K[K+      activemodel (= 3.2.13)[m
+:[K[K+      activesupport (= 3.2.13)[m
+:[K[K       arel (~> 3.0.2)[m
+:[K[K       tzinfo (~> 0.3.29)[m
+:[K[K-    activeresource (3.2.15)[m
+:[K[K-      activemodel (= 3.2.15)[m
+:[K[K-      activesupport (= 3.2.15)[m
+:[K[K-    activesupport (3.2.15)[m
+:[K[K-      i18n (~> 0.6, >= 0.6.4)[m
+:[K[K+    activeresource (3.2.13)[m
+:[K[K+      activemodel (= 3.2.13)[m
+:[K[K+      activesupport (= 3.2.13)[m
+:[K[K+    activesupport (3.2.13)[m
+:[K[K+      i18n (= 0.6.1)[m
+:[K[K       multi_json (~> 1.0)[m
+:[K[K     arel (3.0.3)[m
+:[K[K     bcrypt-ruby (3.0.1)[m
+:[K[K@@ -63,7 +63,7 @@ GEM[m
+:[K[K       i18n (~> 0.5)[m
+:[K[K     ffi (1.9.3)[m
+:[K[K     hike (1.2.3)[m
+:[K[K-    i18n (0.6.5)[m
+:[K[K+    i18n (0.6.1)[m
+:[K[K     journey (1.0.4)[m
+:[K[K     jquery-rails (2.0.2)[m
+:[K[K       railties (>= 3.2.0, < 5.0)[m
+:[K[K@@ -86,17 +86,22 @@ GEM[m
+:[K[K       rack[m
+:[K[K     rack-test (0.6.2)[m
+:[K[K       rack (>= 1.0)[m
+:[K[K-    rails (3.2.15)[m
+:[K[K-      actionmailer (= 3.2.15)[m
+:[K[K-      actionpack (= 3.2.15)[m
+:[K[K-      activerecord (= 3.2.15)[m
+:[K[K-      activeresource (= 3.2.15)[m
+:[K[K-      activesupport (= 3.2.15)[m
+:[K[K+    rails (3.2.13)[m
+:[K[K+      actionmailer (= 3.2.13)[m
+:[K[K+      actionpack (= 3.2.13)[m
+:[K[K+      activerecord (= 3.2.13)[m
+:[K[K+      activeresource (= 3.2.13)[m
+:[K[K+      activesupport (= 3.2.13)[m
+:[K[K       bundler (~> 1.0)[m
+:[K[K-      railties (= 3.2.15)[m
+:[K[K-    railties (3.2.15)[m
+:[K[K-      actionpack (= 3.2.15)[m
+:[K[K-      activesupport (= 3.2.15)[m
+:[K[K+      railties (= 3.2.13)[m
+:[K[K+    rails_12factor (0.0.2)[m
+:[K[K+      rails_serve_static_assets[m
+:[K[K+      rails_stdout_logging[m
+:[K[K+    rails_serve_static_assets (0.0.1)[m
+:[K[K+    rails_stdout_logging (0.0.3)[m
+:[K[K+    railties (3.2.13)[m
+:[K[K+      actionpack (= 3.2.13)[m
+:[K[K+      activesupport (= 3.2.13)[m
+:[K[K       rack-ssl (~> 1.3.2)[m
+:[K[K       rake (>= 0.8.7)[m
+:[K[K       rdoc (~> 3.4)[m
+:[K[K@@ -164,7 +169,8 @@ DEPENDENCIES[m
+:[K[K   faker (= 1.1.2)[m
+:[K[K   jquery-rails (= 2.0.2)[m
+:[K[K   pg (= 0.12.2)[m
+:[K[K-  rails (= 3.2.15)[m
+:[K[K+  rails (= 3.2.13)[m
+:[K[K+  rails_12factor[m
+:[K[K   rspec-rails (= 2.11.0)[m
+:[K[K   sass-rails (~> 3.2.5)[m
+:[K[K   sqlite3 (= 1.3.5)[m
+:[K[Kdiff --git a/Rakefile b/Rakefile[m
+:[K[Kindex e0f380c..4dddba4 100644[m
+:[K[K--- a/Rakefile[m
+:[K[K+++ b/Rakefile[m
+:[K[K@@ -4,4 +4,6 @@[m
+:[K[K [m
+:[K[K require File.expan
