@@ -1,0 +1,9 @@
+3cbfa85 HEAD@{0}: checkout: moving from master to following-users
+3cbfa85 HEAD@{1}: merge user-microposts: Fast-forward
+2c23670 HEAD@{2}: checkout: moving from user-microposts to master
+3cbfa85 HEAD@{3}: commit: Add user microposts
+2c23670 HEAD@{4}: checkout: moving from master to user-microposts
+2c23670 HEAD@{5}: checkout: moving from master to master
+2c23670 HEAD@{6}: commit: Finish user edit, update, index, and destroy actions
+3841a00 HEAD@{7}: commit: locked gemfile
+262bd49 HEAD@{8}: clone: from https://github.com/tkinetik1/sample_app.git
