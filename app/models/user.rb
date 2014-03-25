@@ -27,11 +27,6 @@ class User < ActiveRecord::Base
   	Digest::SHA1.hexdigest(token.to_s)
   end
 
-  def feed
-    # This is preliminary. See "Following users" for the full implementation.
-    Micropost.where("user_id = ?", id)
-  end
-
   def following?(other_user)
     relationships.find_by_followed_id(other_user.id)
   end
@@ -42,6 +37,10 @@ class User < ActiveRecord::Base
 
     def unfollow!(other_user)
     relationships.find_by_followed_id(other_user.id).destroy
+  end
+
+ def feed
+    Micropost.from_users_followed_by(self)
   end
 
   private
